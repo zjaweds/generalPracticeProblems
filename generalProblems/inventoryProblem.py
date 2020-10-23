@@ -1,3 +1,13 @@
+#This program is having some major errors 
+#This program is having some major errors 
+#This program is having some major errors 
+#This program is having some major errors 
+#This program is having some major errors 
+#This program is having some major errors 
+#This program is having some major errors 
+
+
+
 #Implementation in Python
 import random #importing random module for creating random orders
 cost=[1,2,3,4,5] #Declaration and initialisation of a list to store the cost
@@ -66,8 +76,10 @@ for P,Q in [(125, 150),(125, 250),(150, 250),(175, 250),(175, 300)]: #P and Q wi
                     else:
                         c=c+(dem-s)*18
                         s=0
-cost[j]=c #Storing calculated cost for a policy
-polP[j]=P #Storing P for a policy
-polQ[j]=Q #Storing Q for a policy
-j+=1
+    cost[j]=c #Storing calculated cost for a policy
+    polP[j]=P #Storing P for a policy
+    polQ[j]=Q #Storing Q for a policy
+    j+=1
+
+
 print("Minimum cost "+str(min(cost))+" for Policy: P="+str(polP[cost.index(min(cost))])+" Q="+str(polQ[cost.index(min(cost))]))
