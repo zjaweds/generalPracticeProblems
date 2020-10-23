@@ -1,11 +1,3 @@
-#This program is having some major errors 
-#This program is having some major errors 
-#This program is having some major errors 
-#This program is having some major errors 
-#This program is having some major errors 
-#This program is having some major errors 
-#This program is having some major errors 
-
 
 
 #Implementation in Python
